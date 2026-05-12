@@ -1,15 +1,13 @@
 peso = float(input("Digite o peso: "))
-unidade = input("é em K (quilos) ou A (arrobas)?").
+unidade = input("É em K (quilos) ou A (arrobas)? ").upper()
 
 if unidade == "K":
-    arrobas=peso / 15
-        print(f"{peso}" kg = {arrobas:.2f} arrobas")
-        elif unidade == "A"
-          quilos = peso * 15
-            print(f"{peso} kg =
-              {arrobas:.1f} arrobas")
-              elif unidade == "A":
-                  quilos = peso * 15
-                      print(f{peso} arrobas =
-                      {quilos:.1f} kg")
-                      else:
+    arrobas = peso / 15
+    print(f"{peso} kg = {arrobas:.2f} arrobas")
+
+elif unidade == "A":
+    quilos = peso * 15
+    print(f"{peso} arrobas = {quilos:.1f} kg")
+
+else:
+    print("Unidade inválida!")
