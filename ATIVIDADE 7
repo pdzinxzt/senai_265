@@ -1,5 +1,4 @@
-    estoque = ["prego", "Porca", "Arruela", "Parafuso",
-    "Mola"]
+estoque = ["prego", "Porca", "Arruela", "Parafuso","Mola"]
     for item in estoque:
         if item == procurar:
             print("Item encontrado no estoque!")
