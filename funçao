@@ -1,1 +1,5 @@
-funçoes do python
+def saudacao():
+ print("Ola Mundo")
+
+# chamando a funçao
+saudacao()
